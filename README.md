@@ -26,14 +26,14 @@ https://www.kaggle.com/datasets/anvitkumar/shopping-dataset
   - Dropped columns variations and videos as they had too many missing values
 
 - Removed unnecessary columns:
- - images:  Contains image URLs and is not usable for ML models. 
- - videos: Contains video URLs and has a high percentage of missing values. 
- - variations: More than half of the values were missing and the column was not essential for analysis. 
- - amount_of_stars: Provides information same as rating and ratings_count. 
- - breadcrumbs: Contains nested category-path information that overlaps with the category column. 
- - best_offer: Mostly contains {} values and contains information already given by discount and final_price. 
- - more_offers: Contains information already given by discount and final_price. 
- - currency: Contains only a single value (INR) and therefore provides no additional information.
+  - images:  Contains image URLs and is not usable for ML models. 
+  - videos: Contains video URLs and has a high percentage of missing values. 
+  - variations: More than half of the values were missing and the column was not essential for analysis. 
+  - amount_of_stars: Provides information same as rating and ratings_count. 
+  - breadcrumbs: Contains nested category-path information that overlaps with the category column. 
+  - best_offer: Mostly contains {} values and contains information already given by discount and final_price. 
+  - more_offers: Contains information already given by discount and final_price. 
+  - currency: Contains only a single value (INR) and therefore provides no additional information.
     
 - Performed row filtering
 
