@@ -38,7 +38,7 @@ https://www.kaggle.com/datasets/anvitkumar/shopping-dataset
 - Performed row filtering
 
 - Checked for duplicate rows
-- 
+ 
 - Created derived features:
   - quantity: Random values between 1 and 10.
   - total_amount: total_amount = quantity * final_price
